@@ -10,12 +10,48 @@
         <input type="text" placeholder="Juan">
         <label for="apellido">Apellido</label>
         <input type="text" placeholder="Camozzi">
+        <label for="sexo">sexo</label>
+        <ul>
+            <li>
+                <input type="radio" name="sexo" value="Hombre">
+                <label>Hombre</label>
+            </li>
+            <li>
+                <input type="radio" name="sexo" value="Mujer">
+                <label>Mujer</label>
+            </li>
+        </ul>
         <label for="cel">Celular</label>
         <input type="" placeholder="3515269559595">
         <label for="email">email</label>
         <input type="email" placeholder="asd@gmail.com">
-        <input type="submit">
+        <label for="Titulo">Titulo</label>
+    <select name="Titulo">
+        <option value="primario">primario</option>
+        <option value="secundario">secundario</option>
+        <option value="terciario">terciario</option>
+        <option value="universitario">universitario</option>
+    </select>
+    <label>Hobbies</label>
+    <ul>
+        <li>
+            <input type="checkbox" name="Hobbies" value="deporte" id="deporte"/>
+            <label>Deporte</label>
+        </li>
+        <li>
+            <input type="checkbox" name="Hobbies" value="correr" id="correr">
+            <label>Correr</label>
+        </li>
+        <li>
+            <input type="checkbox" name="Hobbies" value="bicicleta" id="bicicleta">
+            <label>Bicicleta</label>
+        </li>
+    </ul>
         
+        <label for="comentarios">comentarios</label>
+        <textarea name="comentarios"></textarea>
+        <input type="submit">
+        <input type="reset" value="borrar">
     </form>
 </body>
 </html>
