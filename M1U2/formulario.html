@@ -6,10 +6,16 @@
 </head>
 <body> 
     <form action="">
-        <label for="nom">Nombre</label>
-        <input type="text" placeholder="Juan">
-        <label for="apellido">Apellido</label>
-        <input type="text" placeholder="Camozzi">
+        <div>
+            <label for="nom">Nombre</label>
+            <input type="text" placeholder="Juan">
+        </div>
+
+        <div>
+            <label for="apellido">Apellido</label>
+            <input type="text" placeholder="Camozzi">
+        </div>
+    <div>
         <label for="sexo">sexo</label>
         <ul>
             <li>
@@ -21,37 +27,51 @@
                 <label>Mujer</label>
             </li>
         </ul>
+    </div>
+    <div>
         <label for="cel">Celular</label>
         <input type="" placeholder="3515269559595">
+    </div> 
+    <div>   
         <label for="email">email</label>
-        <input type="email" placeholder="asd@gmail.com">
+        <input type="email" placeholder="asd@algo.com">
+    </div>
+    <div>    
         <label for="Titulo">Titulo</label>
-    <select name="Titulo">
-        <option value="primario">primario</option>
-        <option value="secundario">secundario</option>
-        <option value="terciario">terciario</option>
-        <option value="universitario">universitario</option>
-    </select>
-    <label>Hobbies</label>
-    <ul>
-        <li>
-            <input type="checkbox" name="Hobbies" value="deporte" id="deporte"/>
-            <label>Deporte</label>
-        </li>
-        <li>
-            <input type="checkbox" name="Hobbies" value="correr" id="correr">
-            <label>Correr</label>
-        </li>
-        <li>
-            <input type="checkbox" name="Hobbies" value="bicicleta" id="bicicleta">
-            <label>Bicicleta</label>
-        </li>
-    </ul>
-        
+        <select name="Titulo">
+            <option value="primario">primario</option>
+            <option value="secundario">secundario</option>
+            <option value="terciario">terciario</option>
+            <option value="universitario">universitario</option>
+        </select>
+    </div>
+    <div>
+        <label>Lenguajes para parender</label>
+        <ul>
+            <li>
+                <input type="checkbox" name="Lenguajes para parender" value="HTML" id="HTML"/>
+                <label>HTML</label>
+            </li>
+            <li>
+                <input type="checkbox" name="Lenguajes para parender" value="CSS" id="CSS">
+                <label>CSS</label>
+            </li>
+            <li>
+                <input type="checkbox" name="Lenguajes para parender" value="Javascript" id="Javascript">
+                <label>Javascript</label>
+            </li>
+        </ul>
+    </div>
+    <div>
         <label for="comentarios">comentarios</label>
         <textarea name="comentarios"></textarea>
+    </div>
+    <div>    
         <input type="submit">
+    </div>
+    <div>    
         <input type="reset" value="borrar">
+    </div>
     </form>
 </body>
 </html>
