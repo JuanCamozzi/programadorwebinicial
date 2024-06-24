@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background-color: #D8D8DC;
+}
+
+.encabezado {
+    background-color:  #ABB2B9;
+    position: relative;
+    width: 100%;
+    border-bottom: 4px double #575757;
+}
+
+.titulo {
+padding: 100px;
+margin-left:300px;
+margin-top: 0;
+margin-bottom: 0;
+text-align: center;
+font-family: sans-serif;
+font-size: 50px;
+text-shadow: -3px 10px 20px #000;
+}
+
+.imagen {
+    width: 190px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 15px;
+}
+
+.datos {
+    background-color: #BFC9CA;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.edad {
+    margin-left: 60px;
+    margin-right: 90px;
+    text-align: center;
+    text-decoration: underline #5D6D7E;
+    font-style: italic;
+}
+.domicilio {
+    margin-left: 50px;
+    margin-right: 80px;
+    text-align: center;
+    text-decoration: underline #5D6D7E;
+    font-style: oblique;
+}
+
+.datos2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;   
+}
+
+.perfil {
+    position: absolute;
+    left: 250px;
+    top: 320px;
+    padding-left: 30px;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #424949;
+    padding-right: 50px;
+    font-size: 14px;
+}
+
+.text-listas {
+    text-align: center;
+    text-decoration:overline #5D6D7E ;
+}
+
+.perfil2 {
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    color: #A6ACAF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+    letter-spacing: 4px;
+}
+
+.parrafo1 {
+    text-align: justify;
+    letter-spacing: 0.5px;
+    line-height: 17px;
+}
+
+span {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #A6ACAF;
+}
+
+.contacto {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 25px;
+    background-color: #717D7E;
+    text-align: right;
+    font-size: 25px;
+    box-sizing: border-box;   
+}
+
+a {
+    text-transform: capitalize;
+    text-transform: uppercase;
+    background-color: #D8D8DC;
+}

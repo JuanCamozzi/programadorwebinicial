@@ -1,0 +1,68 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: sans-serif;
+}
+form {
+    width: 400px;
+    height: 700px;
+    border: 2px solid #ddd;
+    border-radius: 10px; 
+    margin: auto;
+    padding: 10px;
+    box-shadow: 4px 4px 10px #ddd4;
+}
+
+.input1{
+    color: #ddd;
+    padding: 4px;
+    width: 100%;
+    background-color: transparent;
+    box-sizing: border-box;
+    margin: 5px;  
+}
+
+li {
+    list-style-type: none;
+    margin: 10px;
+    border-right: 0px;
+}
+
+ul {
+    padding-left: 5px;
+}
+
+label {
+    padding: 10px;
+    margin: 5px;
+
+}
+
+option {
+    background-color: #000;
+    color: #ddd;
+}
+
+select {
+    background-color: transparent;
+    color: #ddd;
+    padding: 3px;
+    margin: 20px;
+}
+
+textarea {
+    background-color: transparent;
+    color: #ddd;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.input2 {
+    color: #ddd;
+    padding: 4px;
+    width: 100%;
+    background-color: transparent;
+    box-sizing: border-box;
+    margin: 6px;
+    box-shadow: 3px 3px 10px #ddd4;  
+}
